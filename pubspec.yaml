@@ -1,0 +1,25 @@
+name: colorspeak
+description: ColorSpeak – Real-time color detection and speech for visually impaired users.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.10.5+9
+  flutter_tts: ^3.8.5
+  vibration: ^1.8.4
+  permission_handler: ^11.3.1
+  sensors_plus: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
